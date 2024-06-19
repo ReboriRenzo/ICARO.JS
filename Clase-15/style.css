@@ -1,3 +1,13 @@
-.titulo-principal
+.titulo-principal {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.primer-t {
+    background-color: rgb(2, 39, 148);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
 }

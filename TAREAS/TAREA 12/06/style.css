@@ -1,0 +1,42 @@
+.titulo-p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.primer-t {
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.imgTWITTER {
+    width: 50px;
+    bottom: 50px;
+    position: fixed;
+    right: 300px;
+}
+
+.imgFacebook{
+    width: 60px;
+    bottom: 50px;
+    position: fixed;
+    right: 200px;
+}
+
+.imgInstagram{
+    width: 80px;
+    bottom: 50px;
+    position: fixed;
+    right: 400px;
+}
+
+.imgWhatsapp{
+    width: 80px;
+    bottom: 50px;
+    position: fixed;
+    right: 0px;
+}
+
+
+
+
