@@ -1,0 +1,137 @@
+header{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: red;
+    padding: 10px;
+    width: 290px;
+    height: 125px;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.primer-t {
+    background-color: rgb(201, 192, 117);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+.BotonTitulo{
+   border-radius: 100px;
+   border: 0px;
+   background-color: rgba(255, 0, 0, 0);
+   
+}
+.BotonTitulo:hover{
+    cursor: pointer;
+
+}
+
+.Navegador{
+    max-width: 980px;
+    height: 200px;
+    background-color: rgb(197, 188, 110);
+    font-size: 22px;
+    border-radius: 10px;
+    grid-row: 1;
+    grid-column: 3 / 5 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-horizontal{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 200px;
+    background-color :rgba(244, 244, 133, 0.309);
+    border-radius: 10px;
+    
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: rgba(159, 165, 92, 0.712);
+}
+.menu-vertical{
+    position:absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: yellow;
+
+}
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;;
+}
+
+main{
+    background-color: rgb(250, 0, 0);
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+
+
+
+
+
+.Pie{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(4 4fr);
+    grid-column: 2 / 4;
+    grid-row: 4 / 4;
+    background-color: rgb(213, 209, 127);
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Redes {
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px;
+    transition: 1s;
+}
+.Redes:hover{
+    cursor: pointer;
+}
+
+.Logos{
+    width: 25px;
+}
+ 

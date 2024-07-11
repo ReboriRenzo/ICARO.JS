@@ -1,32 +1,205 @@
+
+.titulo-principal {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.primer-t {
+    background-color: rgb(201, 192, 117);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+.BotonTitulo{
+   border-radius: 100px;
+   border: 0px;
+   background-color: rgba(255, 0, 0, 0);
+   
+}
+.BotonTitulo:hover{
+    cursor: pointer;
+
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(4 1fr) ;
+    background-image: url("Imagenes/Fondos/FondoPantalla (1).jpg");
+}
+
+.titulo-principal{
+    grid-column: 1 / 4;
+    grid-row: 1 ;
+}
+nav{
+    grid-row: 1;
+    grid-column: 1 / 1;
+    max-width: 900px;
+    background-color: rgba(201, 193, 117, 0);
+    font-size: 22px;
+    margin-top: 175px;
+    border-radius: 10px;
+}
+
+.NavegadorIzq :hover{
+    background-color: rgba(244, 244, 133, 0.309);
+    border-radius: 10px;
+    
+}
+.NavegadorVERT{
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color :rgba(244, 244, 133, 0.309);
+    border-radius: 10px;
+    
+}
+.NavegadorIzq a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 15px 15px 15px 20px ;
+    text-decoration: none;
+    text-align: left;
+}
+ 
+.NavegadorIzq :hover .NavegadorVERT{
+    display: block;
+}
+
+.NavegadorVERT :hover{
+    background-color: rgba(255, 213, 0, 0.278);
+}
+.NavegadorVERT li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 15px 15px 15px 20px ;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(4 4fr);
+    grid-column: 2 / 4;
+    margin: 15px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.Pie{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(4 4fr);
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    background-color: rgb(213, 209, 127);
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
 .hijo {
-    background-color: rgb(4, 247, 247);
+    background-color: rgba(201, 193, 117, 0.834);
     padding: 10px;
     margin: 5px;
     display: flex;
+    flex-direction: row;
     border-radius: 20px;
-}
-h3{
-    color: #000000;
-    font-family: 'Times New Roman', Times, serif;
-}
-.imagen img{
-    height: 100%;
+    
 }
 
-p {
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+.hijo2{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100%;
+    border-radius: 100px;
+    width: 200px;
+}
+
+
+
+.Logos{
+    width: 25px;
+}
+
+.Redes {
+   background-color: rgba(0, 0, 255, 0);
+   border: 0px;
+   transition: 1s;
+}
+
+.Redes:hover{
+    cursor: pointer;   
 }
 
 .Otra-Flecha {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
 }
 
-.Otra-Flechita{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 5px;
+
+.BotonesContenedor{
+    margin-top: 10px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+    background-color: rgb(229, 229, 118);
+    transition: all 0.5s ease;
+    
 }
+
+.BotonesContenedor:hover{
+    background-color: rgb(248, 248, 139);
+    scale: 1.1;
+    
+}
+.SegundoHijo{
+    grid-row: 1 / 5 ;
+    grid-column: 4 / 5;
+    background-image: url("Imagenes/Fondos/Fondo 2.jpg");
+    width: 550px;
+    height: 950px;
+    border-radius: 40px;
+    margin: 40px;
+    color: white;
+}
+
+.SegundaFlecha2{
+    color: black;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.TituloAnimado{
+    animation: EfectoTitulo 2s infinite ease-in alternate ;
+}
+
+@keyframes EfectoTitulo {
+    form{
+
+    }
+    to {
+        scale: 1.4;
+        
+    }
+}
+
