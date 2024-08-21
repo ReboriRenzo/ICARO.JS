@@ -9,7 +9,11 @@
 
 <body>
 
-    <h1 class="titulo-principal"><span class="primer-t">Lineage</span> Store</h1>
+    <a href="../index.html">
+        <button class="BotonTitulo" >
+        <h1 class="titulo-principal"><span class="primer-t">Lineage</span> Store</h1>
+        </button>
+    </a>  
 
     <div class="Contenedor">
     <h2>Formulario de Compra</h2>
@@ -67,6 +71,9 @@ body{
     grid-template-columns: repeat(4 4fr);
     grid-template-rows: repeat(4 4fr);
     justify-content: center;
+    background-image: url("https://i.pinimg.com/736x/ec/3f/9a/ec3f9a0e2cfefec361987ce41a3fa132.jpg");
+    background-size: cover;
+    background-position: initial;
     
 }
 .titulo-principal {
@@ -77,7 +84,7 @@ body{
 }
 
 .primer-t {
-    background-color: rgb(201, 192, 117);
+    background-color: rgb(250, 237, 0);
     padding: 10px;
     border-radius: 20px;
     color: rgb(0, 0, 0);
@@ -100,9 +107,18 @@ form div{
         margin: 13px;
         
 }
+.BotonTitulo{
+   border-radius: 100px;
+   border: 0px;
+   background-color: rgba(255, 0, 0, 0);
+   
+}
+.BotonTitulo:hover{
+    cursor: pointer;
+}
 .Contenedor{
         width: 500px;
-        background-color: rgba(241, 241, 0, 0.46);
+        background-color: rgba(241, 241, 0, 0.576);
         border-radius: 25px;
         padding: 10px;
         
